@@ -1,6 +1,8 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
+
+
 
 	return (
 		<nav className="navbar navbar-light bg-light">
@@ -11,6 +13,9 @@ export const Navbar = () => {
 				<div className="ml-auto">
 					<Link to="/demo">
 						<button className="btn btn-primary">Check the Context in action</button>
+					</Link>
+					<Link to="/login">
+						<button className="btn btn-primary mx-2">Login</button>
 					</Link>
 				</div>
 			</div>
