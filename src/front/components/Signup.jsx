@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-
+// realizando prueba
 const Signup = () => {
     const backendUrl = import.meta.env.VITE_BACKEND_URL
     const [user, setUser] = useState({
